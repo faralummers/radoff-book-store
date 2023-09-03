@@ -3,7 +3,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { OrderBooksFormComponent } from './order-books-form.component';
 
 @NgModule({
@@ -12,8 +11,7 @@ import { OrderBooksFormComponent } from './order-books-form.component';
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
-    FormsModule,
-    MatSlideToggleModule],
+    FormsModule],
   exports: [
     OrderBooksFormComponent
   ]
