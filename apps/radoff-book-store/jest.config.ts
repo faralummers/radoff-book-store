@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'radoff-book',
+  displayName: 'radoff-book-store',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/radoff-book',
+  coverageDirectory: '../../coverage/apps/radoff-book-store',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

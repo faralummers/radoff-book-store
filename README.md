@@ -7,7 +7,9 @@
 
 ## Start the app
 
-To start the development server run `nx serve radoff-book`. Open your browser and navigate to http://localhost:4200/. Happy coding!
+To start both application's development server run `npm run start:all-apps`. Open your browser and navigate to http://localhost:4200/.
+To start mfe development server run `nx serve books-order`. Open your browser and navigate to http://localhost:4201/.
+To start shell development server run `nx serve radoff-book-store`. Open your browser and navigate to http://localhost:4200/.
 
 
 ## Generate code
